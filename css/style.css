@@ -52,16 +52,15 @@ header a {
 }
 
 header li {
-  float: left;
   display: inline;
   padding: 0 20px 0 20px;
 }
 
-header #branding {
+header #brand {
   float: left;
 }
 
-header #branding h1 {
+header #brand h1 {
   margin: 0;
 }
 
@@ -239,7 +238,7 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
-  header #branding,
+  header #brand,
   header nav,
   header nav li,
   #email h1,
